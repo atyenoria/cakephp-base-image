@@ -4,4 +4,3 @@ s:
 	docker run -it atyenoria/cakephp-base bash
 b:
 	docker build -t atyenoria/cakephp-base .
-

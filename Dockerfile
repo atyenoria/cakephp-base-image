@@ -20,7 +20,7 @@ RUN ZSH_DEP_PACKAGE="software-properties-common build-essential" && \
     apt-get update && apt-get install -y $ZSH_DEP_PACKAGE
 RUN apt-get install -y zsh git
 RUN git clone git://github.com/robbyrussell/oh-my-zsh.git /root/.oh-my-zsh && \
-    chsh -s /bin/zsh && \
+    chsh -s /bin/zsh
 
 #vim plugin
 RUN apt-get install -y vim
